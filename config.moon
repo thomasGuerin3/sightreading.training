@@ -6,7 +6,7 @@ config {"development", "production", "test"}, ->
 
   daemon "off"
   notice_log "stderr"
-  port 9090
+  port 8081
 
   postgres {
     database: "sightreading"

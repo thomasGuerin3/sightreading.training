@@ -25,7 +25,9 @@
     "two.js": "^0.8.10"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "esbuild static/js/main.es6 --bundle --outfile=static/main.js --watch --sourcemap",
+    "build": "esbuild static/js/main.es6 --bundle --outfile=static/main.min.js --minify",
+    "test": "jasmine"
   },
   "author": "leaf corcoran",
   "license": "UNLICENSED"

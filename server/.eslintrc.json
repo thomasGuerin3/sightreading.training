@@ -1,0 +1,12 @@
+{
+  "env": {
+    "node": true,
+    "es2022": true
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "quotes": ["error", "double"],
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+  }
+}
+
